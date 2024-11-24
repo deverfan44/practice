@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.bannar {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.685)),url('./socially_img/living-room-2732939_1280.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header nav {
+    width: 80%;
+    padding: 30px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img {
+    width: 177px;
+    cursor: pointer;
+}
+header nav ul {
+}
+header nav ul li {
+    list-style: none;
+    margin-left: 8px;
+    padding: 7px 8px;
+    display: inline-block;
+    position: relative;
+}
+header nav ul a {
+    text-decoration: none;
+    color: white;
+}
+header nav ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: rgb(0, 182, 182);
+    position: absolute;
+    left: 2px;
+    bottom: -2px;
+    transition: 0.5s;
+}
+header nav ul li:hover::after{
+    width: 90%;
+}
+
+.content_text {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+.content_text h1 {
+    font-size: 41px;
+    color: aliceblue;
+}
+.content_text h2 {
+    color: yellowgreen;
+    font-style: italic;
+}
+.content_text .des_content {
+    width: 62%;
+    margin: auto;
+}
+.content_text p {
+    padding: 20px 119px;
+    color: whitesmoke;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 100;
+}
+button.btn_1 {
+    border: 0;
+    padding: 11px 23px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+main {
+    background-color: aliceblue;
+    position: absolute;
+}
+.service_container {
+    width: 80%;
+    margin: 50px auto 80px;
+}
+.service_title {
+    margin-bottom: 40px;
+}
+.my_service {
+    text-align: center;
+    font-size: 36px;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.services .servics_card {
+    width: 31%;
+    border: 2px solid black;
+    padding: 19px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #a8e5d7;
+}
+.servics_card h2 {
+    margin-bottom: 28px;
+    font-size: 25px;
+}
+.servics_card p {
+    font-size: 16px;
+}
+.servics_card .service_btn {
+    margin-top: 31px;
+    padding: 7px 34px;
+    font-size: 16px;
+    border: none;
+    border: 2px solid black;
+    background: transparent;
+}
