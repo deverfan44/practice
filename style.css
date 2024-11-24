@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_div {
+    height: 600px;
+    border: 1px solid blueviolet;
+}
+.header_logo {
+    font-size: 32px;
+}
+section.banner_section {
+    height: 100vh;
+    overflow: hidden;
+}
+.customize_carousel {
+    width: 100%;
+    height: 100%;
+}
+.card_img_content {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+img.card-img-top.img_card {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.link_fotter {
+    list-style: none;
+    padding: 0;
+}
+.link_fotter li{
+    margin-bottom: 5px;
+}
+.link_fotter li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
